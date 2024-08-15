@@ -16,11 +16,11 @@ export default function Home() {
       return (
             <Layout>
                   <h1 className='text-black text-center'>Welcome to my Seneca Store</h1>
-                  <h4 className='text-black text-center'>Let's Explore and buy some exiting products!!</h4>
+                  <h4 className='text-black text-center'>Let&apos;s Explore and buy some exciting products!!</h4>
                   
                   {!loggedIn && (
                         <div>
-                              <p className='text-black text-center'>Login or Register yourself to view all  products</p>
+                              <p className='text-black text-center'>Login or Register yourself to view all products</p>
                               <div className='text-center'>
                                     <Link href='/login' className='btn btn-primary btn-md'>
                                           Login
